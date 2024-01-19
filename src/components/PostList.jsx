@@ -1,7 +1,7 @@
 import list from "./PostList.module.css";
 import Post from "./Post";
 import { useEffect, useState } from "react";
-import NewPost from "./NewPost";
+import NewPost from "../routes/NewPost";
 import Modal from "./Modal";
 
 function PostList({ isPosting, onStopPosting }) {
